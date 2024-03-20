@@ -3,7 +3,7 @@
   <img src="https://raw.githubusercontent.com/thedaviddias/Front-End-Checklist/master/data/images/logo-front-end-checklist.jpg" alt="Front-End Checklist" width="130">
   <br>
     <br>
-  Front-End Checklist
+  프론트엔드 체크리스트
   <br>
 </h1>
 
@@ -67,11 +67,11 @@ Some resources possess an emoticon to help you understand which type of content 
 
 ## Head
 
-> **Notes:** You can find [a list of everything](https://github.com/joshbuchea/HEAD) that could be found in the `<head>` of an HTML document.
+> **참고:** HTML 문서의 <head>에서 찾을 수 있는 모든 것에 대한 목록을 [여기](https://github.com/joshbuchea/HEAD)에서 찾을 수 있습니다.
 
-### Meta tag
+### 메타 태그
 
-* [ ] **Doctype:** ![High][high_img] The Doctype is HTML5 and is at the top of all your HTML pages.
+* [ ] **Doctype:** ![High][high_img] Doctype은 HTML5이며 모든 HTML 페이지의 맨 위에 있습니다.
 
 ```html
 <!doctype html> <!-- HTML5 -->
@@ -79,23 +79,23 @@ Some resources possess an emoticon to help you understand which type of content 
 
 > * 📖 [Determining the character encoding - HTML5 W3C](https://www.w3.org/TR/html5/syntax.html#determining-the-character-encoding)
 
-*The next 2 meta tags (Charset and Viewport) need to come first in the head.*
+*다음 2개의 메타 태그(Charset 및 Viewport)는 head 태그 내에서 가장 먼저 와야 합니다.*
 
-* [ ] **Charset:** ![High][high_img] The charset (UTF-8) is declared correctly.
+* [ ] **Charset:** ![High][high_img] 문자 인코딩(UTF-8)이 올바르게 선언되었습니다.
 
 ```html
 <!-- Set character encoding for the document -->
 <meta charset="utf-8">
 ```
 
-* [ ] **Viewport:** ![High][high_img] The viewport is declared correctly.
+* [ ] **Viewport:** ![High][high_img] 뷰포트가 올바르게 선언되었습니다.
 
 ```html
 <!-- Viewport for responsive web design -->
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 ```
 
-* [ ] **Title:** ![High][high_img] A title is used on all pages (SEO: Google calculates the pixel width of the characters used in the title, and it cuts off between 472 and 482 pixels. The average character limit would be around 55-characters).
+* [ ] **Title:** ![High][high_img] 모든 페이지에는 타이틀이 사용됩니다 (SEO: Google은 제목에 사용된 문자의 픽셀 너비를 계산하고 472에서 482 픽셀 사이에서 자릅니다. 평균 문자 제한은 약 55자입니다).
 
 ```html
 <!-- Document Title -->
@@ -105,7 +105,7 @@ Some resources possess an emoticon to help you understand which type of content 
 > * 📖 [Title - HTML - MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title)
 > * 🛠 [SERP Snippet Generator](https://www.sistrix.com/serp-snippet-generator/)
 
-* [ ] **Description:** ![High][high_img] A meta description is provided, it is unique and doesn't possess more than 150 characters.
+* [ ] **Description:** ![High][high_img] 메타 설명이 제공되었으며, 이는 고유하며 150자를 초과하지 않습니다.
 
 ```html
 <!-- Meta Description -->
@@ -114,7 +114,7 @@ Some resources possess an emoticon to help you understand which type of content 
 
 > * 📖 [Meta Description - HTML - MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML#Adding_an_author_and_description)
 
-* [ ] **Favicons:** ![Medium][medium_img] Each favicon has been created and displays correctly. If you have only a `favicon.ico`, put it at the root of your site. Normally you won't need to use any markup. However, it's still good practice to link to it using the example below. Today, **PNG format is recommended** over `.ico` format (dimensions: 32x32px).
+* [ ] **Favicons:** ![Medium][medium_img] 각 파비콘이 만들어졌으며 올바르게 표시됩니다. 만약 `favicon.ico`만 가지고 있다면, 이를 사이트의 루트에 둡니다. 보통은 아무런 마크업을 사용하지 않아도 됩니다. 그러나 아래의 예시처럼 링크를 걸어두는 것이 좋습니다. `.ico` 형식 대신 **PNG 형식이 권장됩니다**. (크기: 32x32px).
 
 ```html
 <!-- Standard favicon -->
@@ -129,7 +129,7 @@ Some resources possess an emoticon to help you understand which type of content 
 > * 📖 [Favicons, Touch Icons, Tile Icons, etc. Which Do You Need? - CSS Tricks](https://css-tricks.com/favicon-quiz/)
 > * 📖 [PNG favicons - caniuse](https://caniuse.com/#feat=link-icon-png)
 
-* [ ] **Apple Web App Meta:** ![Low][low_img] Apple meta-tags are present.
+* [ ] **Apple Web App Meta:** ![Low][low_img] Apple 메타 태그가 존재합니다.
 
 ```html
 <!-- Apple Touch Icon (at least 200x200px) -->
@@ -146,14 +146,14 @@ Some resources possess an emoticon to help you understand which type of content 
 > * 📖 [Configuring Web Applications](https://developer.apple.com/library/content/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html)
 > * 📖 [Supported Meta Tags](https://developer.apple.com/library/content/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html)
 
-* [ ] **Windows Tiles:** ![Low][low_img] Windows tiles are present and linked.
+* [ ] **Windows Tiles:** ![Low][low_img] Windows 타일이 존재하고 링크되어 있습니다.
 
 ```html
 <!-- Microsoft Tiles -->
 <meta name="msapplication-config" content="browserconfig.xml" />
 ```
 
-Minimum required xml markup for the `browserconfig.xml` file is as follows:
+`browserconfig.xml` 파일에 필요한 최소한의 XML 마크업은 다음과 같습니다:
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -171,7 +171,7 @@ Minimum required xml markup for the `browserconfig.xml` file is as follows:
 
 > * 📖 [Browser configuration schema reference](https://msdn.microsoft.com/en-us/library/dn320426(v=vs.85).aspx)
 
-* [ ] **Canonical:** ![Medium][medium_img] Use `rel="canonical"` to avoid duplicate content.
+* [ ] **Canonical:** ![Medium][medium_img] 중복 콘텐츠를 피하기 위해 `rel="canonical"`을 사용하세요.
 
 ```html
 <!-- Helps prevent duplicate content issues -->
@@ -181,15 +181,15 @@ Minimum required xml markup for the `browserconfig.xml` file is as follows:
 > * 📖 [Use canonical URLs - Search Console Help - Google Support](https://support.google.com/webmasters/answer/139066?hl=en)
 > * 📖 [5 common mistakes with rel=canonical - Google Webmaster Blog](https://webmasters.googleblog.com/2013/04/5-common-mistakes-with-relcanonical.html)
 
-### HTML tags
+### HTML 태그
 
-* [ ] **Language attribute:** ![High][high_img] The `lang` attribute of your website is specified and related to the language of the current page.
+* [ ] **Language attribute:** ![High][high_img] 웹사이트의 `lang` 속성이 지정되어 있고 현재 페이지의 언어와 관련이 있습니다.
 
 ```html
 <html lang="en">
 ```
 
-* [ ] **Direction attribute:** ![Medium][medium_img] The direction of lecture is specified on the html tag (It can be used on another HTML tag).
+* [ ] **Direction attribute:** ![Medium][medium_img] 텍스트 방향이 HTML 태그에 지정되어 있습니다 (다른 HTML 태그에서도 사용할 수 있습니다).
 
 ```html
 <html dir="rtl">
@@ -197,13 +197,13 @@ Minimum required xml markup for the `browserconfig.xml` file is as follows:
 
 > * 📖 [dir - HTML - MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/dir)
 
-* [ ] **Alternate language:** ![Low][low_img] The language tag of your website is specified and related to the language of the current page.
+* [ ] **Alternate language:** ![Low][low_img] 웹사이트의 언어 태그는 현재 페이지의 언어와 관련이 있습니다.
 
 ```html
 <link rel="alternate" href="https://es.example.com/" hreflang="es">
 ```
 
-* [ ] **x-default:** ![Low][low_img] The language tag of your website for international landing pages.
+* [ ] **x-default:** ![Low][low_img] 국제 랜딩 페이지용 웹사이트 언어 태그입니다.
 
 ```html
 <link rel="alternate" href="https://example.com/" hreflang="x-default" />
@@ -212,27 +212,27 @@ Minimum required xml markup for the `browserconfig.xml` file is as follows:
 > * 📖 [x-default - Google](https://webmasters.googleblog.com/2013/04/x-default-hreflang-for-international-pages.html)
 
 
-* [ ] **Conditional comments:** ![Low][low_img] Conditional comments are present for IE if needed.
+* [ ] **Conditional comments:** ![Low][low_img] IE를 위해 필요한 경우 조건부 주석이 있습니다.
 
 > * 📖 [About conditional comments (Internet Explorer) - MSDN - Microsoft](https://msdn.microsoft.com/en-us/library/ms537512(v=vs.85).aspx)
 
-* [ ] **RSS feed:** ![Low][low_img] If your project is a blog or has articles, an RSS link was provided.
+* [ ] **RSS feed:** ![Low][low_img] 프로젝트가 블로그이거나 기사가 있는 경우, RSS 링크가 제공되었습니다.
 
-* [ ] **CSS Critical:** ![Medium][medium_img] The CSS critical (or "above the fold") collects all the CSS used to render the visible portion of the page. It is embedded before your principal CSS call and between `<style></style>` in a single line (minified).
+* [ ] **CSS Critical:** ![Medium][medium_img] CSS 크리티컬(또는 "above the fold: 아무런 행동을 하지 않은 기본 화면")은 페이지의 가시적인 부분을 렌더링하는 데 사용되는 모든 CSS를 수집합니다. 이는 기본 CSS 호출 전에 `<style></style>` 사이의 한 줄로 포함됩니다(최소화됨).
 
 > * 🛠 [Critical by Addy Osmani on GitHub](https://github.com/addyosmani/critical) automates this.
 
-* [ ] **CSS order:** ![High][high_img] All CSS files are loaded before any JavaScript files in the `<head>`. (Except the case where sometimes JS files are loaded asynchronously on top of your page).
+* [ ] **CSS order:** ![High][high_img] 모든 CSS 파일은 `<head>` 안에서 어떤 JavaScript 파일보다 먼저 로드됩니다. (페이지의 맨 위에서 가끔씩 JS 파일이 비동기적으로 로드되는 경우를 제외하고)
 
-### Social meta
+### 소셜 메타
 
-Visualize and generate automatically our social meta tags with [Meta Tags](https://metatags.io/)
+[메타 태그](https://metatags.io/)를 사용하여 소셜 메타 태그를 자동으로 시각화하고 생성하세요.
 
-***Facebook OG*** and ***Twitter Cards*** are, for any website, highly recommended. The other social media tags can be considered if you target a particular presence on those and want to ensure the display.
+***Facebook OG*** 및 ***Twitter Cards***는 모든 웹사이트에 대해 강력히 권장됩니다. 그 밖의 다른 소셜 미디어 태그는 해당 소셜 유저를 대상으로 할 경우에만 고려합니다. 이를 통해 화면 표시를 보장할 수 있습니다.
 
-* [ ] **Facebook Open Graph:** ![Low][low_img] All Facebook Open Graph (OG) are tested and no one is missing or with false information. Images need to be at least 600 x 315 pixels, although 1200 x 630 pixels is recommended.
+* [ ] **Facebook Open Graph:** ![Low][low_img] 모든 Facebook Open Graph (OG)가 테스트되었고 누락되거나 잘못된 정보가 없습니다. 이미지는 최소한 600 x 315 픽셀이어야 하지만, 1200 x 630 픽셀을 권장합니다.
 
-> **Notes:** Using `og:image:width` and `og:image:height` will specify the image dimensions to the crawler so that it can render the image immediately without having to asynchronously download and process it.
+> **참고:** `og:image:width`와 `og:image:height`를 사용하면 크롤러에게 이미지의 크기를 지정하여 이미지를 비동기적으로 다운로드하고 처리하지 않고 즉시 렌더링할 수 있습니다.
 
 ```html
 <meta property="og:type" content="website">
@@ -272,37 +272,39 @@ Visualize and generate automatically our social meta tags with [Meta Tags](https
 
 ## HTML
 
-### Best practices
+### 모범 사례
 
-* [ ] **HTML5 Semantic Elements:** ![High][high_img] HTML5 Semantic Elements are used appropriately (header, section, footer, main...).
+* [ ] **HTML5 Semantic Elements:** ![High][high_img] HTML5 의미 있는(Semantic) 요소들이 적절하게 사용됩니다 (header, section, footer, main...).
 
 > * 📖 [HTML Reference](http://htmlreference.io/)
 
-* [ ] **Error pages:** ![High][high_img] Error 404 page and 5xx exist. Remember that the 5xx error pages need to have their CSS integrated (no external call on the current server).
+* [ ] **Error pages:** ![High][high_img] 404 페이지와 5xx 에러 페이지가 존재합니다. 5xx 에러 페이지는 해당 CSS가 통합되어 있어야 합니다 (현재 서버에서 외부 호출 없이).
 
-* [ ] **Noopener:** ![Medium][medium_img] In case you are using external links with `target="_blank"`, your link should have a `rel="noopener"` attribute to prevent tab nabbing. If you need to support older versions of Firefox, use `rel="noopener noreferrer"`.
+* [ ] **Noopener:** ![Medium][medium_img] 만약 `target="_blank"`로 외부 링크를 사용한다면, 링크에는 탭내빙을 방지하기 위해 `rel="noopener"` 속성이 있어야 합니다. 오래된 버전의 Firefox를 지원해야 한다면, `rel="noopener noreferrer"`를 사용합니다.
+
+<img src="https://yozm.wishket.com/media/news/1586/image004.png" width="300" height="300"  alt="탭내빙"/>
 
 > * 📖 [About rel=noopener](https://mathiasbynens.github.io/rel-noopener/)
 
-* [ ] **Clean up comments:** ![Low][low_img] Unnecessary code needs to be removed before sending the page to production.
+* [ ] **Clean up comments:** ![Low][low_img] 페이지를 프로덕션으로 보내기 전에 불필요한 코드를 제거해야 합니다.
 
 ### HTML testing
 
-* [ ] **W3C compliant:** ![High][high_img] All pages need to be tested with the W3C validator to identify possible issues in the HTML code.
+* [ ] **W3C compliant:** ![High][high_img] 모든 페이지는 W3C 검증기를 사용하여 HTML 코드의 가능한 문제를 식별해야 합니다.
 
 > * 🛠 [W3C validator](https://validator.w3.org/)
 
-* [ ] **HTML Lint:** ![High][high_img] I use tools to help me analyze any issues I could have on my HTML code.
+* [ ] **HTML Lint:** ![High][high_img] HTML 코드에서 발생할 수 있는 문제를 분석하는 데 도움이 되는 도구를 사용합니다.
 
 > * 🛠 [Dirty markup](https://www.10bestdesign.com/dirtymarkup/)
 
 > * 🛠 [webhint](https://webhint.io/)
 
-* [ ] **Link checker:** ![High][high_img] There are no broken links in my page, verify that you don't have any 404 error.
+* [ ] **Link checker:** ![High][high_img] 페이지에 유효하지 않은 링크가 없고, 404 오류가 없습니다.
 
 > * 🛠 [W3C Link Checker](https://validator.w3.org/checklink)
 
-* [ ] **Adblockers test:** ![Medium][medium_img] Your website shows your content correctly with adblockers enabled (You can provide a message encouraging people to disable their adblocker).
+* [ ] **Adblockers test:** ![Medium][medium_img] 광고 차단기를 사용해도 콘텐츠를 올바르게 표시합니다. 광고 차단기를 해제하도록 사람들에게 메시지를 제공할 수 있습니다.
 
 > * 📖 [Use AdBlocking in your Dev Environment](https://andreicioara.com/use-adblocking-in-your-dev-environment-48db500d9b86)
 
@@ -311,21 +313,21 @@ Visualize and generate automatically our social meta tags with [Meta Tags](https
 
 ---
 
-## Webfonts
+## 웹폰트
 
-> **Notes:** Using web fonts may cause Flash Of Unstyled Text/Flash Of Invisible Text - consider having fallback fonts and/or utilizing web font loaders to control behavior.
+> **참고:** 웹 폰트 사용으로 스타일이 적용되지 않은 텍스트의 순간적인 나타남 현상(Flash Of Unstyled Text) 또는 텍스트가 보이지 않는 순간적인 현상(Flash Of Invisible Text)이 발생할 수 있습니다. 이를 방지하기 위해 대체 폰트를 설정하거나 웹 폰트 로더를 활용하여 동작을 제어하는 것이 좋습니다.
 > * 📖 [Google Technical considerations about webfonts](https://developers.google.com/fonts/docs/technical_considerations)
 
-* [ ] **Webfont format:** ![High][high_img] WOFF, WOFF2 and TTF are supported by all modern browsers.
+* [ ] **Webfont format:** ![High][high_img] 모든 최신 브라우저에서 WOFF, WOFF2 및 TTF 형식을 지원합니다.
 
 > * 📖 [WOFF - Web Open Font Format - Caniuse](https://caniuse.com/#feat=woff).
 > * 📖 [WOFF 2.0 - Web Open Font Format - Caniuse](https://caniuse.com/#feat=woff2).
 > * 📖 [TTF/OTF - TrueType and OpenType font support](https://caniuse.com/#feat=ttf)
 > * 📖 [Using @font-face - CSS-Tricks](https://css-tricks.com/snippets/css/using-font-face/)
 
-* [ ] **Webfont size:** ![High][high_img] Webfont sizes don't exceed 2 MB (all variants included).
+* [ ] **Webfont size:** ![High][high_img] 웹폰트 크기가 모든 변형을 포함하여 2 MB를 초과하지 않습니다.
 
-* [ ] **Webfont loader:** ![Low][low_img] Control loading behavior with a webfont loader
+* [ ] **Webfont loader:** ![Low][low_img] 웹폰트 로더를 사용하여 로딩 동작을 제어합니다.
 
 > * 🛠 [Typekit Web Font Loader](https://github.com/typekit/webfontloader)
 
@@ -335,19 +337,19 @@ Visualize and generate automatically our social meta tags with [Meta Tags](https
 
 ## CSS
 
-> **Notes:** Take a look at [CSS guidelines](https://cssguidelin.es/) and [Sass Guidelines](https://sass-guidelin.es/) followed by most  Front-End developers. If you have a doubt about CSS properties, you can visit [CSS Reference](http://cssreference.io/). There is also a short [Code Guide](http://codeguide.co/) for consistency.
+> **참고:** 많은 프론트엔드 개발자가 따르는 [CSS 가이드라인](https://cssguidelin.es/)과 [Sass 가이드라인](https://sass-guidelin.es/)을 살펴보세요. CSS 속성에 대한 의문이 있다면 [CSS 레퍼런스](http://cssreference.io/)를 방문하세요. 일관성을 위한 간단한 [코드 가이드](http://codeguide.co/)도 있습니다.
 
-* [ ] **Responsive Web Design:** ![High][high_img] The website is using responsive web design.
-* [ ] **CSS Print:** ![Medium][medium_img] A print stylesheet is provided and is correct on each page.
-* [ ] **Preprocessors:** ![Low][low_img] Your project is using a CSS preprocessor (e.g [Sass](http://sass-lang.com/), [Less](http://lesscss.org/), [Stylus](http://stylus-lang.com/)).
-* [ ] **Unique ID:** ![High][high_img] If IDs are used, they are unique to a page.
-* [ ] **Reset CSS:** ![High][high_img] A CSS reset (reset, normalize or reboot) is used and up to date. *(If you are using a CSS Framework like Bootstrap or Foundation, a Normalize is already included into it.)*
+* [ ] **Responsive Web Design:** ![High][high_img] 반응형 웹 디자인을 사용합니다.
+* [ ] **CSS Print:** ![Medium][medium_img] 인쇄 스타일 시트가 각 페이지에서 제공되며 올바르게 설정되어 있습니다.
+* [ ] **Preprocessors:** ![Low][low_img] CSS 전처리기를 사용합니다. (예: [Sass](http://sass-lang.com/), [Less](http://lesscss.org/), [Stylus](http://stylus-lang.com/))
+* [ ] **Unique ID:** ![High][high_img] ID를 사용하는 경우, 각각 페이지의 ID가 고유합니다.
+* [ ] **Reset CSS:** ![High][high_img] CSS 리셋(reset), 정규화(normalize), 또는 재부팅(reboot)이 사용되고 최신 상태입니다. *(부트스트랩이나 파운데이션 같은 CSS 프레임워크를 사용하는 경우, 정규화가 이미 포함되어 있습니다.)*
 
 > * 📖 [Reset.css](https://meyerweb.com/eric/tools/css/reset/)
 > * 📖 [Normalize.css](https://necolas.github.io/normalize.css/)
 > * 📖 [Reboot](https://getbootstrap.com/docs/4.0/content/reboot/)
 
-* [ ] **JS prefix:** ![Low][low_img] All classes (or id- used in JavaScript files) begin with **js-** and are not styled into the CSS files.
+* [ ] **JS prefix:** ![Low][low_img] JavaScript 파일에서 사용되는 모든 클래스(또는 id)는 **js-** 로 시작하며 CSS 파일에 스타일이 지정되지 않습니다.
 
 ```html
 <div id="js-slider" class="my-slider">
@@ -355,21 +357,21 @@ Visualize and generate automatically our social meta tags with [Meta Tags](https
 <div id="id-used-by-cms" class="js-slider my-slider">
 ```
 
-* [ ] **embedded or inline CSS:** ![High][high_img] Avoid at all cost embedding CSS in `<style>` tags or using inline CSS: only use for valid reasons (e.g. background-image for slider, critical CSS).
-* [ ] **Vendor prefixes:** ![High][high_img] CSS vendor prefixes are used and are generated accordingly with your browser support compatibility.
+* [ ] **embedded or inline CSS:** ![High][high_img] `<style>` 태그에 CSS를 포함하거나 인라인 CSS를 사용하는 것을 지양합니다. 유효한 이유(예: 슬라이더의 배경 이미지, 중요한 CSS)만을 위해 사용합니다.
+* [ ] **Vendor prefixes:** ![High][high_img] CSS 벤더 프리픽스를 사용하고 브라우저 지원 호환성에 따라 적절하게 생성합니다.
 
 > * 🛠 [Autoprefixer CSS online](https://autoprefixer.github.io/)
 
-### Performance
+### 성능
 
-* [ ] **Concatenation:** ![High][high_img] CSS files are concatenated in a single file *(Not for HTTP/2)*.
-* [ ] **Minification:** ![High][high_img] All CSS files are minified.
-* [ ] **Non-blocking:** ![Medium][medium_img] CSS files need to be non-blocking to prevent the DOM from taking time to load.
+* [ ] **Concatenation:** ![High][high_img] CSS 파일이 하나의 파일로 병합됩니다. (HTTP/2의 경우에는 해당하지 않음)
+* [ ] **Minification:** ![High][high_img] 모든 CSS 파일이 최소화되었습니다.
+* [ ] **Non-blocking:** ![Medium][medium_img] CSS 파일은 DOM이 로드되는 데 시간이 걸리지 않도록 Non-Blocking(다른 주체의 작업에 관련없이 자신의 작업을 하는 것)되어야 합니다.
 
 > * 📖 [loadCSS by filament group](https://github.com/filamentgroup/loadCSS)
 > * 📖 [Example of preload CSS using loadCSS](https://gist.github.com/thedaviddias/c24763b82b9991e53928e66a0bafc9bf)
 
-* [ ] **Unused CSS:** ![Low][low_img] Remove unused CSS.
+* [ ] **Unused CSS:** ![Low][low_img] 사용되지 않는 CSS를 제거합니다.
 
 > * 🛠 [UnCSS Online](https://uncss-online.com/)
 > * 🛠 [PurifyCSS](https://github.com/purifycss/purifycss)
@@ -377,14 +379,14 @@ Visualize and generate automatically our social meta tags with [Meta Tags](https
 > * 🛠 [Chrome DevTools Coverage](https://developer.chrome.com/docs/devtools/coverage/)
 
 
-### CSS testing
+### CSS 테스트
 
-* [ ] **Stylelint:** ![High][high_img] All CSS or SCSS files are without any errors.
+* [ ] **Stylelint:** ![High][high_img] 모든 CSS 또는 SCSS 파일에 오류가 없어야 합니다.
 
 > * 🛠 [stylelint, a CSS linter](https://stylelint.io/)
 > * 📖 [Sass guidelines](https://sass-guidelin.es/)
 
-* [ ] **Responsive web design:** ![High][high_img] All pages were tested at the following breakpoints: 320px, 768px, 1024px (can be more / different according to your analytics).
+* [ ] **Responsive web design:** ![High][high_img] 모든 페이지는 다음의 중단점에서 테스트되었습니다: 320px, 768px, 1024px (분석에 따라 더 많거나 다를 수 있음).
 **Responsive Checker -**
 > * 🛠 [Am I Responsive?](http://ami.responsivedesign.is/)
 > * 🛠 [Mobile Friendly Test](https://search.google.com/test/mobile-friendly)
@@ -393,19 +395,19 @@ Visualize and generate automatically our social meta tags with [Meta Tags](https
 > * 🛠 [XRespond](https://xrespond.com/)
 
 
-* [ ] **CSS Validator:** ![Medium][medium_img] The CSS was tested and pertinent errors were corrected.
+* [ ] **CSS Validator:** ![Medium][medium_img] CSS가 테스트되고 관련된 오류가 수정되었습니다.
 
 > * 🛠 [CSS Validator](https://jigsaw.w3.org/css-validator/)
 
-* [ ] **Desktop Browsers:** ![High][high_img] All pages were tested on all current desktop browsers (Safari, Firefox, Chrome, Internet Explorer, EDGE...).
-* [ ] **Mobile Browsers:**  ![High][high_img] All pages were tested on all current mobile browsers (Native browser, Chrome, Safari...).
-* [ ] **OS:**  ![High][high_img] All pages were tested on all current OS (Windows, Android, iOS, Mac...).
+* [ ] **Desktop Browsers:** ![High][high_img] 모든 데스크톱 브라우저(Safari, Firefox, Chrome, Internet Explorer, EDGE 등)에서 모든 페이지가 테스트되었습니다.
+* [ ] **Mobile Browsers:**  ![High][high_img] 모바일 브라우저(Native browser, Chrome, Safari 등)에서 모든 페이지가 테스트되었습니다.
+* [ ] **OS:**  ![High][high_img] 모든 페이지가 모든 운영 체제(Windows, Android, iOS, Mac 등)에서 테스트되었습니다.
 
-* [ ] **Design fidelity:** ![Low][low_img] Depending on the project and the quality of the creatives, you may be asked to be close to the design. You can use some tools to compare creatives with your code implementation and ensure consistency.
+* [ ] **Design fidelity:** ![Low][low_img] 프로젝트 및 디자인의 품질에 따라 디자인과의 일관성을 유지해야 합니다. 코드 구현과 크리에이티브를 비교하고 일관성을 보장하기 위해 몇 가지 도구를 사용할 수 있습니다.
 
 > [Pixel Perfect - Chrome Extension](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi?hl=en)
 
-* [ ] **Reading direction:** ![High][high_img] All pages need to be tested for LTR and RTL languages if they need to be supported.
+* [ ] **Reading direction:** ![High][high_img] 모든 페이지는 LTR 및 RTL 언어에 대해 지원해야하는 경우를 위해 테스트되어야 합니다.
 
 > * 📖 [Building RTL-Aware Web Apps & Websites: Part 1 - Mozilla Hacks](https://hacks.mozilla.org/2015/09/building-rtl-aware-web-apps-and-websites-part-1/)
 > * 📖 [Building RTL-Aware Web Apps & Websites: Part 2 - Mozilla Hacks](https://hacks.mozilla.org/2015/10/building-rtl-aware-web-apps-websites-part-2/)
@@ -414,11 +416,11 @@ Visualize and generate automatically our social meta tags with [Meta Tags](https
 
 ---
 
-## Images
+## 이미지
 
-> **Notes:** For a complete understanding of image optimization, check the free ebook **[Essential Image Optimization](https://images.guide/)** from Addy Osmani.
+> **참고:** 이미지 최적화에 대한 이해를 위해 Addy Osmani의 무료 eBook인 **[Essential Image Optimization](https://images.guide/)** 를 확인하세요.
 
-### Best practices
+### 모범 사례
 
 * [ ] **Optimization:** ![High][high_img] All images are optimized to be rendered in the browser. WebP format could be used for critical pages (like Homepage).
 
@@ -450,9 +452,9 @@ Visualize and generate automatically our social meta tags with [Meta Tags](https
 
 ---
 
-## JavaScript
+## 자바스크립트
 
-### Best practices
+### 모범 사례
 
 * [ ] **JavaScript Inline:** ![High][high_img] You don't have any JavaScript code inline (mixed with your HTML code).
 * [ ] **Concatenation:** ![High][high_img] JavaScript files are concatenated.
@@ -502,7 +504,7 @@ Visualize and generate automatically our social meta tags with [Meta Tags](https
 > * [securityheaders.io](https://securityheaders.io/)
 > * [Observatory by Mozilla](https://observatory.mozilla.org/)
 
-### Best practices
+### 모범 사례
 
 * [ ] **HTTPS:** ![High][high_img] HTTPS is used on every page and for all external content (plugins, images...).
 
@@ -547,7 +549,7 @@ Visualize and generate automatically our social meta tags with [Meta Tags](https
 
 ## Performance
 
-### Best practices
+### 모범 사례
 
 * [ ] **Goals to achieve:** ![Medium][medium_img] Your pages should reach these goals:
   * First Meaningful Paint under 1 second
@@ -618,9 +620,9 @@ Visualize and generate automatically our social meta tags with [Meta Tags](https
 
 ## Accessibility
 
-> **Notes:** You can watch the playlist [A11ycasts with Rob Dodson](https://www.youtube.com/playlist?list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g) 📹
+> **참고:** You can watch the playlist [A11ycasts with Rob Dodson](https://www.youtube.com/playlist?list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g) 📹
 
-### Best practices
+### 모범 사례
 
 * [ ] **Progressive enhancement:** ![Medium][medium_img] Major functionality like main navigation and search should work without JavaScript enabled.
 
@@ -804,3 +806,4 @@ Support this project by becoming a sponsor. Your logo will show up here with a l
 [low_img]: data/images/priority/low.svg
 [medium_img]: data/images/priority/medium.svg
 [high_img]: data/images/priority/high.svg
+
