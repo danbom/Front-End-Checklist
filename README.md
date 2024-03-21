@@ -8,11 +8,11 @@
 </h1>
 
 ---
-<h3 align="center">🚨 Currently working on new version of frontendchecklist.io,<br>feel free to <a href="https://github.com/thedaviddias/Front-End-Checklist/discussions/513">discuss</a> any feature you would like to see. Thanks for your support!</h3>
+<h3 align="center">🚨 현재 frontendchecklist.io의 새 버전을 작업 중입니다. 원하는 기능에 대해 자유롭게 <a href="https://github.com/thedaviddias/Front-End-Checklist/discussions/513">토론</a>해 주세요. 지원해 주셔서 감사합니다!</h3>
 
 ---
 
-<h4 align="center">The Front-End Checklist is an exhaustive list of all elements you need to have / to test before launching your website / HTML page to production.</h4>
+<h4 align="center">프론트엔드 체크리스트는 웹사이트나 HTML 페이지를 프로덕션에 출시하기 전에 가져야 할 모든 요소 및 테스트 항목을 상세하게 나열한 목록입니다.</h4>
 
 <p align="center">
   <a href="http://makeapullrequest.com">
@@ -30,38 +30,36 @@
 </p>
 
 <p align="center">
-  <a href="#how-to-use">How To Use</a> • <a href="#contributing">Contributing</a> • <a href="https://frontendchecklist.io">Website</a> • <a href="https://www.producthunt.com/posts/front-end-checklist">Product Hunt</a>
+  <a href="#how-to-use">사용 방법</a> • <a href="#contributing">기여하기</a> • <a href="https://frontendchecklist.io">웹사이트</a> • <a href="https://www.producthunt.com/posts/front-end-checklist">커뮤니티</a>
 </p>
 <p align="center">
-    <span>Other Checklists:</span>
+    <span>다른 체크리스트:</span>
     <br>
-  <a href="https://github.com/thedaviddias/Front-End-Performance-Checklist#---------front-end-performance-checklist-">🎮 Front-End Performance Checklist</a> • <a href="https://github.com/thedaviddias/Front-End-Design-Checklist#front-end-design-checklist">💎 Front-End Design Checklist</a>
+  <a href="https://github.com/thedaviddias/Front-End-Performance-Checklist#---------front-end-performance-checklist-">🎮 프론트엔드 성능 체크리스트</a> • <a href="https://github.com/thedaviddias/Front-End-Design-Checklist#front-end-design-checklist">💎 프론트엔드 디자인 체크리스트</a>
 </p>
 
 
-It is based on Front-End developers' years of experience, with the additions coming from some other open-source checklists.
+이 체크리스트는 프론트엔드 개발자들의 수년의 경험을 기반으로 하며, 다른 오픈 소스 체크리스트에서의 추가로 완성되었습니다.
 
 ---
 
-## How to use?
+## 사용 방법
 
-All items in the **Front-End Checklist** are required for the majority of the projects, but some elements can be omitted or are not essential (in the case of an administration web app, you may not need RSS feed for example). We choose to use 3 levels of flexibility:
+이 체크리스트의 모든 항목은 대부분의 프로젝트에 필요하지만, 일부 요소는 생략이 가능하거나 필수가 아닐 수 있습니다(예를 들어, 관리 웹 앱의 경우 RSS 피드가 필요하지 않을 수 있습니다). 우리는 필요성을 기준으로 3단계로 정의했습니다:
 
-All items in the Front-End Checklist are necessary for the majority of projects, but some elements can be omitted or are not essential. For example, in an administration web app, you may not need an RSS feed. We have categorized the flexibility into three levels:
-
-![Low][low_img] indicates that the item is recommended but can be omitted in certain situations.
-![Medium][medium_img] indicates that the item is highly recommended but can potentially be omitted in very specific cases. However, omitting these elements can negatively impact performance or SEO.
-![High][high_img] indicates that the item cannot be omitted under any circumstances. Removing these elements may result in page malfunctions or cause accessibility and SEO issues. Testing should prioritize these elements first.
+![Low][low_img] 해당 항목은 권장되지만 특정 상황에서 생략할 수 있다는 것을 나타냅니다.
+![Medium][medium_img] 해당 항목은 강력히 권장되지만 매우 특정한 경우에만 생략할 수 있습니다. 그러나 이러한 요소를 생략하면 성능이나 SEO에 부정적인 영향을 줄 수 있습니다.
+![High][high_img] 해당 항목은 어떠한 경우에도 생략할 수 없음을 나타냅니다. 이러한 요소를 제거하면 페이지 기능이 동작하지 않을 수 있거나 접근성 및 SEO 문제를 야기할 수 있습니다. 이러한 요소를 테스트할 때 우선순위로 두어야 합니다.
 
 
 
-Some resources possess an emoticon to help you understand which type of content / help you may find on the checklist:
+어떤 유형의 레퍼런스인지 이해하는 데 도움이 되는 이모티콘:
 
-* 📖: documentation or article
-* 🛠: online tool / testing tool
-* 📹: media or video content
+* 📖: 문서 또는 기사
+* 🛠: 온라인 도구 / 테스트 도구
+* 📹: 미디어 또는 비디오 콘텐츠
 
-> You can contribute to the ***Front-End Checklist App*** reading the [CONTRIBUTING.md file](https://github.com/thedaviddias/Front-End-Checklist/blob/master/CONTRIBUTING.md) which explains everything about the project.
+> ***Front-End Checklist App***에 기여할 수 있습니다. 이 프로젝트에 관한 모든 것을 설명한 [CONTRIBUTING.md 파일](https://github.com/thedaviddias/Front-End-Checklist/blob/master/CONTRIBUTING.md)을 읽어보세요.
 
 ---
 
@@ -222,7 +220,7 @@ Some resources possess an emoticon to help you understand which type of content 
 
 > * 🛠 [Critical by Addy Osmani on GitHub](https://github.com/addyosmani/critical) automates this.
 
-* [ ] **CSS order:** ![High][high_img] 모든 CSS 파일은 `<head>` 안에서 어떤 JavaScript 파일보다 먼저 로드됩니다. (페이지의 맨 위에서 가끔씩 JS 파일이 비동기적으로 로드되는 경우를 제외하고)
+* [ ] **CSS order:** ![High][high_img] 모든 CSS 파일은 `<head>` 안에서 어떤 자바스크립트 파일보다 먼저 로드됩니다. (페이지의 맨 위에서 가끔씩 JS 파일이 비동기적으로 로드되는 경우를 제외하고)
 
 ### 소셜 메타
 
@@ -266,7 +264,7 @@ Some resources possess an emoticon to help you understand which type of content 
 > * 📖 [Getting started with cards — Twitter Developers](https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started)
 > * 🛠 Test your page with the [Twitter card validator](https://cards-dev.twitter.com/validator)
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ 페이지 상단으로 이동](#table-of-contents)**
 
 ---
 
@@ -309,7 +307,7 @@ Some resources possess an emoticon to help you understand which type of content 
 > * 📖 [Use AdBlocking in your Dev Environment](https://andreicioara.com/use-adblocking-in-your-dev-environment-48db500d9b86)
 
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ 페이지 상단으로 이동](#table-of-contents)**
 
 ---
 
@@ -331,7 +329,7 @@ Some resources possess an emoticon to help you understand which type of content 
 
 > * 🛠 [Typekit Web Font Loader](https://github.com/typekit/webfontloader)
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ 페이지 상단으로 이동](#table-of-contents)**
 
 ---
 
@@ -349,7 +347,7 @@ Some resources possess an emoticon to help you understand which type of content 
 > * 📖 [Normalize.css](https://necolas.github.io/normalize.css/)
 > * 📖 [Reboot](https://getbootstrap.com/docs/4.0/content/reboot/)
 
-* [ ] **JS prefix:** ![Low][low_img] JavaScript 파일에서 사용되는 모든 클래스(또는 id)는 **js-** 로 시작하며 CSS 파일에 스타일이 지정되지 않습니다.
+* [ ] **JS prefix:** ![Low][low_img] 자바스크립트 파일에서 사용되는 모든 클래스(또는 id)는 **js-** 로 시작하며 CSS 파일에 스타일이 지정되지 않습니다.
 
 ```html
 <div id="js-slider" class="my-slider">
@@ -412,7 +410,7 @@ Some resources possess an emoticon to help you understand which type of content 
 > * 📖 [Building RTL-Aware Web Apps & Websites: Part 1 - Mozilla Hacks](https://hacks.mozilla.org/2015/09/building-rtl-aware-web-apps-and-websites-part-1/)
 > * 📖 [Building RTL-Aware Web Apps & Websites: Part 2 - Mozilla Hacks](https://hacks.mozilla.org/2015/10/building-rtl-aware-web-apps-websites-part-2/)
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ 페이지 상단으로 이동](#table-of-contents)**
 
 ---
 
@@ -422,7 +420,7 @@ Some resources possess an emoticon to help you understand which type of content 
 
 ### 모범 사례
 
-* [ ] **Optimization:** ![High][high_img] All images are optimized to be rendered in the browser. WebP format could be used for critical pages (like Homepage).
+* [ ] **Optimization:** ![High][high_img] 모든 이미지가 브라우저에서 렌더링될 수 있도록 최적화되었습니다. 홈페이지와 같은 중요한 페이지에는 WebP 형식을 사용할 수 있습니다.
 
 > * 🛠 [Imagemin](https://github.com/imagemin/imagemin)
 > * 🛠 Use [ImageOptim](https://imageoptim.com/) to optimise your images for free.
@@ -434,21 +432,21 @@ Some resources possess an emoticon to help you understand which type of content 
 > * 🛠 [SVGOMG](https://jakearchibald.github.io/svgomg/) a web-based GUI version of SVGO for optimising your svgs online.
 
 
-* [ ] **Picture/Srcset:** ![Medium][medium_img] You use picture/srcset to provide the most appropriate image for the current viewport of the user.
+* [ ] **Picture/Srcset:** ![Medium][medium_img] 사용자의 현재 뷰포트에 가장 적합한 이미지를 제공하기 위해 picture/srcset을 사용합니다.
 
 > * 📖 [How to Build Responsive Images with srcset](https://www.sitepoint.com/how-to-build-responsive-images-with-srcset/)
 
-* [ ] **Retina:** ![Low][low_img] You provide layout images 2x or 3x, support retina display.
-* [ ] **Sprite:** ![Medium][medium_img] Small images are in a sprite file (in the case of icons, they can be in an SVG sprite image).
-* [ ] **Width and Height:** ![High][high_img] Set `width` and `height` attributes on `<img>` if the final rendered image size is known (can be omitted for CSS sizing).
-* [ ] **Alternative text:** ![High][high_img] All `<img>` have an alternative text which describes the image visually.
+* [ ] **Retina:** ![Low][low_img] 레티나 디스플레이를 지원하기 위해 레이아웃 이미지를 2배 또는 3배로 제공합니다.
+* [ ] **Sprite:** ![Medium][medium_img] 작은 이미지는 스프라이트 파일에 있습니다. (아이콘의 경우 SVG 스프라이트 이미지에 있을 수 있습니다.)
+* [ ] **Width and Height:** ![High][high_img] 이미지의 최종 렌더링 크기를 알고 있다면 `<img>`에 `width`와 `height` 속성을 설정하세요. (CSS 크기 지정에 대해서는 생략할 수 있습니다.)
+* [ ] **Alternative text:** ![High][high_img] 모든 `<img>`에는 이미지를 시각적으로 설명하는 대체 텍스트가 있어야 합니다.
 
 > * 📖 [Alt-texts: The Ultimate Guide](https://axesslab.com/alt-texts/)
 
-* [ ] **Lazy loading:** ![Medium][medium_img] Images are lazyloaded (A noscript fallback is always provided).
+* [ ] **Lazy loading:** ![Medium][medium_img] 이미지는 레이지 로딩되어 있습니다 (noscript 대체가 항상 제공됩니다).
 > * 🛠 [Native lazy loading polyfill](https://github.com/mfranzke/loading-attribute-polyfill/)
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ 페이지 상단으로 이동](#table-of-contents)**
 
 ---
 
@@ -456,9 +454,9 @@ Some resources possess an emoticon to help you understand which type of content 
 
 ### 모범 사례
 
-* [ ] **JavaScript Inline:** ![High][high_img] You don't have any JavaScript code inline (mixed with your HTML code).
-* [ ] **Concatenation:** ![High][high_img] JavaScript files are concatenated.
-* [ ] **Minification:** ![High][high_img] JavaScript files are minified (you can add the `.min` suffix).
+* [ ] **JavaScript Inline:** ![High][high_img] HTML 코드와 혼합된 인라인 자바스크립트 코드가 없습니다.
+* [ ] **Concatenation:** ![High][high_img] 자바스크립트 파일이 연결되어 있습니다.
+* [ ] **Minification:** ![High][high_img] 자바스크립트 파일이 최소화되었습니다 (.min 접미사를 추가할 수 있습니다).
 
 > * 📖 [Minify Resources (HTML, CSS, and JavaScript)](https://developers.google.com/speed/docs/insights/MinifyResources)
 
@@ -466,137 +464,137 @@ Some resources possess an emoticon to help you understand which type of content 
 
 > * 📖 [Guidelines for Developing Secure Applications Utilizing JavaScript](https://www.owasp.org/index.php/DOM_based_XSS_Prevention_Cheat_Sheet#Guidelines_for_Developing_Secure_Applications_Utilizing_JavaScript)
 
-* [ ] **`noscript` tag:** ![Medium][medium_img] Use `<noscript>` tag in the HTML body if a script type on the page is unsupported or if scripting is currently turned off in the browser. This will be helpful in client-side rendering heavy apps such as React.js, see [examples](https://webdesign.tutsplus.com/tutorials/quick-tip-dont-forget-the-noscript-element--cms-25498).
+* [ ] **`noscript` tag:** ![Medium][medium_img] 브라우저에서 스크립팅이 지원되지 않거나 현재 스크립팅이 꺼져 있는 경우 HTML 본문에 `<noscript>` 태그를 사용하세요. 이는 React.js와 같은 클라이언트 측 렌더링이 많이 필요한 애플리케이션에 유용할 것입니다. [예시](https://webdesign.tutsplus.com/tutorials/quick-tip-dont-forget-the-noscript-element--cms-25498)를 참조하세요.
 
 ```html
 <noscript>
-  You need to enable JavaScript to run this app.
+  이 앱을 실행하려면 자바스크립트를 활성화해야 합니다.
 </noscript>
 ```
 
-* [ ] **Non-blocking:** ![Medium][medium_img] JavaScript files are loaded asynchronously using `async` or deferred using `defer` attribute.
+* [ ] **Non-blocking:** ![Medium][medium_img] 자바스크립트 파일은 `async` 속성을 사용하여 비동기적으로 로드되거나 `defer` 속성을 사용하여 지연되어 로드됩니다.
 
 > * 📖 [Remove Render-Blocking JavaScript](https://developers.google.com/speed/docs/insights/BlockingJS)
 
-* [ ] **Optimized and updated JS libraries:** ![Medium][medium_img] All JavaScript libraries used in your project are necessary (prefer Vanilla Javascript for simple functionalities), updated to their latest version and don't overwhelm your JavaScript with unnecessary methods.
+* [ ] **Optimized and updated JS libraries:** ![Medium][medium_img] 프로젝트에서 사용되는 모든 자바스크립트 라이브러리가 필요하며(간단한 기능에는 Vanilla 자바스크립트를 사용하는 것이 좋습니다), 최신 버전으로 업데이트되어 있으며 불필요한 메서드로 자바스크립트가 과도하게 무거워지지 않도록 주의해야 합니다.
 
 > * 📖 [You may not need jQuery](http://youmightnotneedjquery.com/)
 > * 📖 [Vanilla JavaScript for building powerful web applications](https://plainjs.com/)
 
-* [ ] **Modernizr:** ![Low][low_img] If you need to target some specific features you can use a custom Modernizr to add classes in your `<html>` tag.
+* [ ] **Modernizr:** ![Low][low_img] 특정 기능을 대상으로 해야 할 경우 사용자 지정 Modernizr을 사용하여 `<html>` 태그에 클래스를 추가할 수 있습니다.
 
 > * 🛠 [Customize your Modernizr](https://modernizr.com/download?setclasses)
 
-### JavaScript testing
+### 자바스크립트 테스트
 
-* [ ] **ESLint:** ![High][high_img] No errors are flagged by ESLint (based on your configuration or standards rules).
+* [ ] **ESLint:** ![High][high_img] ESLint에 의해 오류가 플래그되지 않습니다 (구성 또는 표준 규칙에 따라).
 
 > * 📖 [ESLint - The pluggable linting utility for JavaScript and JSX](https://eslint.org/)
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ 페이지 상단으로 이동](#table-of-contents)**
 
 ---
 
-## Security
+## 보안
 
-### Scan and check your web site
+### 웹 사이트 스캔 및 체크
 
 > * [securityheaders.io](https://securityheaders.io/)
 > * [Observatory by Mozilla](https://observatory.mozilla.org/)
 
 ### 모범 사례
 
-* [ ] **HTTPS:** ![High][high_img] HTTPS is used on every page and for all external content (plugins, images...).
+* [ ] **HTTPS:** ![High][high_img] 모든 페이지와 외부 콘텐츠(플러그인, 이미지 등)에 HTTPS가 사용됩니다.
 
 > * 🛠 [Let's Encrypt - Free SSL/TLS Certificates](https://letsencrypt.org/)
 > * 🛠 [Free SSL Server Test](https://www.ssllabs.com/ssltest/index.html)
 > * 📖 [Strict Transport Security](http://caniuse.com/#feat=stricttransportsecurity)
 
-* [ ] **HTTP Strict Transport Security (HSTS):** ![Medium][medium_img] The HTTP header is set to 'Strict-Transport-Security'.
+* [ ] **HTTP Strict Transport Security (HSTS):** ![Medium][medium_img] HTTP 헤더가 'Strict-Transport-Security'로 설정되어 있습니다.
 
 > * 🛠 [Check HSTS preload status and eligibility](https://hstspreload.org/)
 > * 📖 [HTTP Strict Transport Security Cheat Sheet - OWASP](https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html)
 > * 📖 [Transport Layer Protection Cheat Sheet - OWASP](https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Protection_Cheat_Sheet.html)
 
-* [ ] **Cross Site Request Forgery (CSRF):** ![High][high_img] You ensure that requests made to your server-side are legitimate and originate from your website / app to prevent CSRF attacks.
+* [ ] **Cross Site Request Forgery (CSRF):** ![High][high_img] 서버 측으로의 요청이 정당하며 우리 웹사이트/앱에서 시작되었음을 확인하여 CSRF 공격을 방지합니다.
 
 > * 📖 [Cross-Site Request Forgery (CSRF) Prevention Cheat Sheet  - OWASP](https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html)
 
-* [ ] **Cross Site Scripting (XSS):** ![High][high_img] Your page or website is free from XSS possible issues.
+* [ ] **Cross Site Scripting (XSS):** ![High][high_img] 페이지나 웹사이트에 XSS 가능한 문제가 없습니다.
 
 > * 📖 [XSS (Cross Site Scripting) Prevention Cheat Sheet  - OWASP](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html)
 > * 📖 [DOM based XSS Prevention Cheat Sheet  - OWASP](https://cheatsheetseries.owasp.org/cheatsheets/DOM_based_XSS_Prevention_Cheat_Sheet.html)
 
-* [ ] **Content Type Options:** ![Medium][medium_img] Prevents Google Chrome and Internet Explorer from trying to mime-sniff the content-type of a response away from the one being declared by the server.
+* [ ] **Content Type Options:** ![Medium][medium_img] Google Chrome 및 Internet Explorer가 서버에서 선언된 content-type과 다른 것을 시도하는 것을 방지합니다.
 
 > * 📖 [X-Content-Type-Options - Scott Helme](https://scotthelme.co.uk/hardening-your-http-response-headers/#x-content-type-options)
 
-* [ ] **X-Frame-Options (XFO):** ![Medium][medium_img] Protects your visitors against clickjacking attacks.
+* [ ] **X-Frame-Options (XFO):** ![Medium][medium_img] 방문자를 클릭잭킹 공격으로부터 보호합니다.
 
 > * 📖 [X-Frame-Options - Scott Helme](https://scotthelme.co.uk/hardening-your-http-response-headers/#x-frame-options)
 > * 📖 [RFC7034 - HTTP Header Field X-Frame-Options](https://tools.ietf.org/html/rfc7034)
 
-* [ ] **Content Security Policy:** ![Medium][medium_img] Defines how content is loaded on your site and from where it is permitted to be loaded. Can also be used to protect against clickjacking attacks.
+* [ ] **Content Security Policy:** ![Medium][medium_img] 웹사이트에서 콘텐츠가 어떻게 로드되는지 및 어디에서 로드되어 허용되는지를 정의합니다. 또한 클릭잭킹 공격에 대비하여 사용할 수 있습니다.
 
 > * 📖 [Content Security Policy - An Introduction - Scott Helme](https://scotthelme.co.uk/content-security-policy-an-introduction/)
 > * 📖 [CSP Cheat Sheet - Scott Helme](https://scotthelme.co.uk/csp-cheat-sheet/)
 > * 📖 [CSP Cheat Sheet - OWASP](https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html)
 > * 📖 [Content Security Policy Reference](https://content-security-policy.com/)
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ 페이지 상단으로 이동](#table-of-contents)**
 
 ---
 
-## Performance
+## 성능
 
 ### 모범 사례
 
-* [ ] **Goals to achieve:** ![Medium][medium_img] Your pages should reach these goals:
-  * First Meaningful Paint under 1 second
-  * Time To Interactive under 5 seconds for the "average" configuration (a $200 Android on a slow 3G network with 400ms RTT and 400kbps transfer speed) and under 2 seconds for repeat visits
-  * Critical file size under 170Kb gzipped
+* [ ] **Goals to achieve:** ![Medium][medium_img] 페이지는 다음 목표를 달성해야 합니다:
+  * 첫 번째 의미 있는 페인트는 1초 이내에 완료되어야 합니다.
+  * "평균" 구성(느린 3G 네트워크에서 400ms RTT 및 400kbps 전송 속도를 갖는 $200 Android 장치)의 Time To Interactive는 5초 이내이어야 하며, 반복 방문에서는 2초 이내여야 합니다.
+  * 크리티컬 파일 크기는 압축 후 170KB 이내여야 합니다.
 
 > * 🛠 [Website Page Analysis](https://tools.pingdom.com)
 > * 🛠 [WebPageTest](https://www.webpagetest.org/)
 > * 📖 [Size Limit: Make the Web lighter](https://evilmartians.com/chronicles/size-limit-make-the-web-lighter)
 
-* [ ] **Minified HTML:** ![Medium][medium_img] Your HTML is minified.
+* [ ] **Minified HTML:** ![Medium][medium_img] HTML은 압축되어 있습니다.
 
-* [ ] **Lazy loading:** ![Medium][medium_img] Images, scripts and CSS need to be lazy loaded to improve the response time of the current page (See details in their respective sections).
+* [ ] **Lazy loading:** ![Medium][medium_img] 이미지, 스크립트 및 CSS는 현재 페이지의 응답 시간을 개선하기 위해 레이지 로딩되어야 합니다. (해당 섹션에서 자세한 내용 참조)
 
-* [ ] **Cookie size:** ![Medium][medium_img] If you are using cookies be sure each cookie doesn't exceed 4096 bytes and your domain name doesn't have more than 20 cookies.
+* [ ] **Cookie size:** ![Medium][medium_img] 쿠키를 사용하는 경우 각 쿠키가 4096바이트를 초과하지 않도록하고 도메인 이름에 20개 이상의 쿠키가 없도록합니다.
 
 > * 📖 [Cookie specification: RFC 6265](https://tools.ietf.org/html/rfc6265)
 > * 📖 [Cookies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies)
 > * 🛠 [Browser Cookie Limits](http://browsercookielimits.squawky.net/)
 
-* [ ] **Third party components:** ![Medium][medium_img] Third party iframes or components relying on external JS (like sharing buttons) are replaced by static components when possible, thus limiting calls to external APIs and keeping your user's activity private.
+* [ ] **Third party components:** ![Medium][medium_img] 가능한 경우, 외부 JS에 의존하는 써드파티 iframe이나 구성 요소(공유 버튼과 같은)는 정적 구성 요소로 대체하여 외부 API 호출을 제한하고 사용자의 활동을 보호합니다.
 
 > * 🛠 [Simple sharing buttons generator](https://simplesharingbuttons.com/)
 
-### Preparing upcoming requests
+### 다가오는 요청 준비하기
 
 > * 📖 [Explanation of the following techniques](https://css-tricks.com/prefetching-preloading-prebrowsing/)
 
-* [ ] **DNS resolution:** ![Low][low_img] DNS of third-party services that may be needed are resolved in advance during idle time using `dns-prefetch`.
+* [ ] **DNS resolution:** ![Low][low_img] 제공될 수 있는 필요한 제3자 서비스의 DNS는 `dns-prefetch`를 사용하여 유휴 시간 동안 미리 해결됩니다.
 
 ```html
 <link rel="dns-prefetch" href="https://example.com">
 ```
 
-* [ ] **Preconnection:** ![Low][low_img] DNS lookup, TCP handshake and TLS negotiation with services that will be needed soon is done in advance during idle time using `preconnect`.
+* [ ] **Preconnection:** ![Low][low_img] 빠른 접속을 위해 필요한 서비스와의 DNS 조회, TCP 핸드셰이크 및 TLS 협상은 유휴 시간 동안 `preconnect`를 사용하여 미리 처리됩니다.
 
 ```html
 <link rel="preconnect" href="https://example.com">
 ```
 
-* [ ] **Prefetching:** ![Low][low_img] Resources that will be needed soon (e.g. lazy loaded images) are requested in advance during idle time using `prefetch`.
+* [ ] **Prefetching:** ![Low][low_img] 빠른 접속을 위해 필요한 리소스(예: 지연로드된 이미지)는 유휴 시간 동안 `prefetch`를 사용하여 미리 요청됩니다.
 
 ```html
 <link rel="prefetch" href="image.png">
 ```
 
-* [ ] **Preloading:** ![Low][low_img] Resources needed in the current page (e.g. scripts placed at the end of `<body>`) in advance using `preload`.
+* [ ] **Preloading:** ![Low][low_img] 현재 페이지에서 필요한 리소스(예: `<body>` 끝에 배치된 스크립트)는 `preload`를 사용하여 미리 로드됩니다.
 
 ```html
 <link rel="preload" href="app.js">
@@ -604,9 +602,9 @@ Some resources possess an emoticon to help you understand which type of content 
 
 > * 📖 [Difference between prefetch and preload](https://medium.com/reloading/preload-prefetch-and-priorities-in-chrome-776165961bbf)
 
-### Performance testing
+### 성능 테스트
 
-* [ ] **Google PageSpeed:** ![High][high_img] All your pages were tested (not only the homepage) and have a score of at least 90/100.
+* [ ] **Google PageSpeed:** ![High][high_img] 모든 페이지(홈페이지뿐만 아니라)가 테스트되었으며 적어도 90/100의 점수를 받았습니다.
 
 > * 🛠 [Google PageSpeed](https://developers.google.com/speed/pagespeed/insights/)
 > * 🛠 [Test your mobile speed with Google](https://testmysite.withgoogle.com)
@@ -614,67 +612,67 @@ Some resources possess an emoticon to help you understand which type of content 
 > * 🛠 [GTmetrix - Website speed and performance optimization](https://gtmetrix.com/)
 > * 🛠 [Speedrank - Improve the performance of your website](https://speedrank.app/)
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ 페이지 상단으로 이동](#table-of-contents)**
 
 ---
 
-## Accessibility
+## 접근성
 
-> **참고:** You can watch the playlist [A11ycasts with Rob Dodson](https://www.youtube.com/playlist?list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g) 📹
+> **참고:** [A11ycasts with Rob Dodson](https://www.youtube.com/playlist?list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g) 재생 목록을 시청할 수 있습니다. 📹
 
 ### 모범 사례
 
-* [ ] **Progressive enhancement:** ![Medium][medium_img] Major functionality like main navigation and search should work without JavaScript enabled.
+* [ ] **Progressive enhancement:** ![Medium][medium_img] 주요 기능인 주 메뉴 및 검색은 자바스크립트를 사용하지 않고도 작동해야 합니다.
 
 > * 📖 [Enable / Disable JavaScript in Chrome Developer Tools](https://www.youtube.com/watch?v=kBmvq2cE0D8)
 
-* [ ] **Color contrast:** ![Medium][medium_img] Color contrast should at least pass WCAG AA (AAA for mobile).
+* [ ] **Color contrast:** ![Medium][medium_img] 색 대비는 적어도 WCAG AA를 통과해야 합니다 (모바일의 경우 AAA).
 
 > * 🛠 [Contrast ratio](https://leaverou.github.io/contrast-ratio/)
 
 #### Headings
 
-* [ ] **H1:** ![High][high_img] All pages have an H1 which is not the title of the website.
-* [ ] **Headings:** ![High][high_img] Headings should be used properly and in the right order (H1 to H6).
+* [ ] **H1:** ![High][high_img] 모든 페이지에는 웹 사이트 제목이 아닌 H1이 있습니다.
+* [ ] **Headings:** ![High][high_img] Headings은 적절하게 사용되고 올바른 순서로 (H1에서 H6까지) 사용되어야 합니다.
 
 > * 📹 [Why headings and landmarks are so important -- A11ycasts #18](https://www.youtube.com/watch?v=vAAzdi1xuUY&index=9&list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g)
 
-### Semantics
+### 시맨틱스
 
-* [ ] **Specific HTML5 input types are used:** ![Medium][medium_img] This is especially important for mobile devices that show customized keypads and widgets for different types.
+* [ ] **Specific HTML5 input types are used:** ![Medium][medium_img] 모바일 기기에서 각 요소의 유형에 따라 사용자 지정된 키패드와 위젯이 표시됩니다.
 
 > * 📖 [Mobile Input Types](http://mobileinputtypes.com/)
 
-### Form
+### 폼
 
-* [ ] **Label:** ![High][high_img] A label is associated with each input form element. In case a label can't be displayed, use `aria-label` instead.
+* [ ] **Label:** ![High][high_img] 각 입력 폼 요소에는 레이블이 연결되어 있습니다. 레이블을 표시할 수 없는 경우에는 대신 `aria-label`을 사용하세요.
 
 > * 📖 [Using the aria-label attribute - MDN](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-label)
 
-### Accessibility testing
+### 접근성 테스트
 
-* [ ] **Accessibility standards testing:** ![High][high_img] Use the WAVE tool to test if your page respects the accessibility standards.
+* [ ] **Accessibility standards testing:** ![High][high_img] 페이지가 접근성 표준을 준수하는지 테스트하기 위해 WAVE 도구를 사용하세요.
 
 > * 🛠 [Wave testing](http://wave.webaim.org/)
 
-* [ ] **Keyboard navigation:** ![High][high_img] Test your website using only your keyboard in a previsible order. All interactive elements are reachable and usable.
-* [ ] **Screen-reader:** ![Medium][medium_img] All pages were tested in a screen-reader (VoiceOver, ChromeVox, NVDA or Lynx).
-* [ ] **Focus style:** ![High][high_img] If the focus is disabled, it is replaced by visible state in CSS.
+* [ ] **Keyboard navigation:** ![High][high_img] 사용자가 키보드만 사용하여 웹사이트의 모든 상호 작용 가능한 요소가 예측 가능한 순서로 접근 가능하고 사용 가능한지 확인하세요.
+* [ ] **Screen-reader:** ![Medium][medium_img] 모든 페이지가 스크린 리더(보이스오버, ChromeVox, NVDA 또는 Lynx)에서 테스트되었습니다.
+* [ ] **Focus style:** ![High][high_img] 포커스가 비활성화된 경우, CSS에서 visible 상태로 대체됩니다.
 
 > * 📹 [Managing Focus - A11ycasts #22](https://www.youtube.com/watch?v=srLRSQg6Jgg&index=5&list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g)
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ 페이지 상단으로 이동](#table-of-contents)**
 
 ---
 
 ## SEO
 
-* [ ] **Google Analytics:** ![Low][low_img] Google Analytics is installed and correctly configured.
+* [ ] **Google Analytics:** ![Low][low_img] 구글 애널리틱스가 설치되어 있고 올바르게 구성되었습니다.
 
 > * 🛠 [Google Analytics](https://analytics.google.com/analytics/web/)
 > * 🛠 [GA Checker (and others)](http://www.gachecker.com/)
 
-* [ ] **Search Console:** ![Low][low_img] Search Console is installed and correctly configured. It is a free service offered by Google that helps you monitor, maintain, and troubleshoot your site's presence in Google Search results.
+* [ ] **Search Console:** ![Low][low_img] 서치 콘솔이 설치되어 있고 올바르게 구성되었습니다. 이것은 Google에서 제공하는 무료 서비스로, Google 검색 결과에서 사이트의 존재를 모니터링, 유지 및 문제 해결하는 데 도움을 줍니다.
 
 > * 🛠 [Search Console](https://search.google.com/search-console/about)
 
@@ -703,7 +701,7 @@ Some resources possess an emoticon to help you understand which type of content 
 
 > * 📖 [Sitemap guidelines - Google Support](https://support.google.com/webmasters/answer/183668?hl=en)
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ 페이지 상단으로 이동](#table-of-contents)**
 
 ---
 
@@ -737,7 +735,7 @@ If you want to show you are following the rules of the Front-End Checklist, put 
 [![Front‑End_Checklist followed](https://img.shields.io/badge/Front‑End_Checklist-followed-brightgreen.svg)](https://github.com/thedaviddias/Front-End-Checklist/)
 ```
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ 페이지 상단으로 이동](#table-of-contents)**
 
 ---
 
@@ -801,7 +799,7 @@ Support this project by becoming a sponsor. Your logo will show up here with a l
 
 [![CC0](https://i.creativecommons.org/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ 페이지 상단으로 이동](#table-of-contents)**
 
 [low_img]: data/images/priority/low.svg
 [medium_img]: data/images/priority/medium.svg
