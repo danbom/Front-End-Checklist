@@ -676,20 +676,20 @@
 
 > * 🛠 [Search Console](https://search.google.com/search-console/about)
 
-* [ ] **Headings logic:** ![Medium][medium_img] Heading text helps to understand the content in the current page.
+* [ ] **Headings logic:** ![Medium][medium_img] Heading 텍스트가 현재 페이지의 내용을 이해하는 데 도움이 됩니다.
 
 > * 🛠 [Tota11y, tab Headings](http://khan.github.io/tota11y/#Try-it)
 
-* [ ] **sitemap.xml:** ![High][high_img] A sitemap.xml exists and was submitted to Google Search Console (previously Google Webmaster Tools).
+* [ ] **sitemap.xml:** ![High][high_img] sitemap.xml이 있으며 구글 검색 콘솔(이전에는 구글 웹마스터 도구)에 제출되었습니다.
 
 > * 🛠 [Sitemap generator](https://websiteseochecker.com/html-sitemap-generator/)
 
-* [ ] **robots.txt:** ![High][high_img] The robots.txt is not blocking webpages.
+* [ ] **robots.txt:** ![High][high_img] robots.txt가 웹페이지를 차단하지 않습니다.
 
 > * 📖 [The robots.txt file](https://varvy.com/robottxt.html)
 > * 🛠 Test your robots.txt with [Google Robots Testing Tool](https://www.google.com/webmasters/tools/robots-testing-tool)
 
-* [ ] **Structured Data:** ![High][high_img] Pages using structured data are tested and are without errors. Structured data helps crawlers understand the content in the current page.
+* [ ] **Structured Data:** ![High][high_img] 구조화된 데이터를 사용하는 페이지는 테스트되었고 오류가 없습니다. 구조화된 데이터는 크롤러가 현재 페이지의 콘텐츠를 이해하는 데 도움이 됩니다.
 
 > * 📖 [Introduction to Structured Data - Search - Google Developers](https://developers.google.com/search/docs/guides/intro-structured-data)
 > * 📖 [JSON-LD](https://json-ld.org/)
@@ -697,7 +697,7 @@
 > * 🛠 Test your page with the [Rich Results Test](https://search.google.com/test/rich-results)
 > * 🛠 Complete list of vocabularies that can be used as structured data. [Schema.org Full Hierarchy](http://schema.org/docs/full.html)
 
-* [ ] **Sitemap HTML:** ![Medium][medium_img] An HTML sitemap is provided and is accessible via a link in the footer of your website.
+* [ ] **Sitemap HTML:** ![Medium][medium_img] HTML 사이트맵이 제공되며 웹사이트의 푸터에 있는 링크를 통해 접근할 수 있습니다.
 
 > * 📖 [Sitemap guidelines - Google Support](https://support.google.com/webmasters/answer/183668?hl=en)
 
@@ -705,9 +705,9 @@
 
 ---
 
-## Translations
+## 번역
 
-The Front-End Checklist is also available in other languages. Thanks for all translators and their awesome work!
+프론트엔드 체크리스트는 다른 언어로도 제공됩니다. 번역가들과 그들의 훌륭한 작업에 감사드립니다!
 
 * 🇯🇵 Japanese: [miya0001/Front-End-Checklist](https://github.com/miya0001/Front-End-Checklist)
 * 🇪🇸 Spanish: [eoasakura/Front-End-Checklist-ES](https://github.com/eoasakura/Front-End-Checklist-ES)
@@ -725,9 +725,9 @@ The Front-End Checklist is also available in other languages. Thanks for all tra
 
 ---
 
-## Front-End Checklist Badge
+## 프론트엔드 체크리스트 뱃지
 
-If you want to show you are following the rules of the Front-End Checklist, put this badge on your README file!
+프론트엔드 체크리스트의 규칙을 따르고 있다는 것을 보여주고 싶다면, README 파일에 이 배지를 넣어주세요!
 
 ➔ [![Front‑End_Checklist followed](https://img.shields.io/badge/Front‑End_Checklist-followed-brightgreen.svg)](https://github.com/thedaviddias/Front-End-Checklist/)
 
@@ -739,50 +739,50 @@ If you want to show you are following the rules of the Front-End Checklist, put 
 
 ---
 
-## Contributing
+## 기여하기
 
-**Open an issue or a pull request to suggest changes or additions.**
+**변경 또는 추가를 제안하려면 이슈를 열거나 풀 리퀘스트를 오픈하세요.**
 
-### Guide
+### 가이드
 
-The **Front-End Checklist** repository consists of two branches:
+**프론트엔드 체크리스트** 저장소에는 두 개의 브랜치가 있습니다:
 
 #### 1. `master`
 
-This branch consists of the `README.md` file that is automatically reflected on the [Front-End Checklist](https://frontendchecklist.io) website.
+이 브랜치에는 [프론트엔드 체크리스트](https://frontendchecklist.io) 웹 사이트에 자동으로 반영되는 `README.md` 파일이 포함되어 있습니다.
 
 #### 2. `develop`
 
-This branch will be used to make some significant changes to the structure, content if needed. It is preferable to use the master branch to fix small errors or add a new item.
+이 브랜치는 필요에 따라 구조와 내용을 크게 변경하는 데 사용됩니다. 작은 오류를 수정하거나 새로운 항목을 추가하는 경우 마스터 브랜치를 사용하는 것이 좋습니다.
 
-## Support
+## 지원
 
-If you have any question or suggestion, don't hesitate to use Gitter or Twitter:
+질문이나 제안이 있으시면 언제든지 Gitter나 Twitter를 이용해주세요:
 
 * [Chat on Gitter](https://gitter.im/Front-End-Checklist/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
 * [Facebook](https://www.facebook.com/frontendchecklist/)
 * [Twitter](https://twitter.com/thedaviddias)
 
-## Author
+## 저자
 
 **[David Dias](https://github.com/thedaviddias)**
 
-## Contributors
+## 기여자
 
-This project exists thanks to all the people who contribute. [[Contribute]](.github/CONTRIBUTING.md).
+이 프로젝트는 기여해 주신 모든 분들 덕분에 가능했습니다. [[Contribute]](.github/CONTRIBUTING.md).
 <a href="https://github.com/thedaviddias/Front-End-Checklist/graphs/contributors"><img src="https://opencollective.com/front-end-checklist/contributors.svg?width=890" /></a>
 
 
-## Backers
+## 후원자
 
-Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com/front-end-checklist#backer)]
+모든 후원자께 감사드립니다! 🙏 [[Become a backer](https://opencollective.com/front-end-checklist#backer)]
 
 <a href="https://opencollective.com/front-end-checklist#backers" target="_blank"><img src="https://opencollective.com/front-end-checklist/backers.svg?width=890"></a>
 
 
-## Sponsors
+## 스폰서
 
-Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [[Become a sponsor](https://opencollective.com/front-end-checklist#sponsor)]
+이 프로젝트를 후원하여 지원하세요. 여러분의 로고가 여기에 표시되며 웹사이트로의 링크가 함께 제공됩니다. [[Become a sponsor](https://opencollective.com/front-end-checklist#sponsor)]
 
 <a href="https://opencollective.com/front-end-checklist/sponsor/0/website" target="_blank"><img src="https://opencollective.com/front-end-checklist/sponsor/0/avatar.svg"></a>
 <a href="https://opencollective.com/front-end-checklist/sponsor/1/website" target="_blank"><img src="https://opencollective.com/front-end-checklist/sponsor/1/avatar.svg"></a>
@@ -795,7 +795,7 @@ Support this project by becoming a sponsor. Your logo will show up here with a l
 <a href="https://opencollective.com/front-end-checklist/sponsor/8/website" target="_blank"><img src="https://opencollective.com/front-end-checklist/sponsor/8/avatar.svg"></a>
 <a href="https://opencollective.com/front-end-checklist/sponsor/9/website" target="_blank"><img src="https://opencollective.com/front-end-checklist/sponsor/9/avatar.svg"></a>
 
-## License
+## 라이센스
 
 [![CC0](https://i.creativecommons.org/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
 
