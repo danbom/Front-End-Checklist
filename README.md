@@ -45,7 +45,7 @@
 
 ## 사용 방법
 
-이 체크리스트의 모든 항목은 대부분의 프로젝트에 필요하지만, 일부 요소는 생략이 가능하거나 필수가 아닐 수 있습니다(예를 들어, 관리 웹 앱의 경우 RSS 피드가 필요하지 않을 수 있습니다). 우리는 필요성을 기준으로 3단계로 정의했습니다:
+이 체크리스트의 모든 항목은 대부분의 프로젝트에 필요하지만, 일부 요소는 생략이 가능하거나 필수가 아닐 수 있습니다(예를 들어, 관리 웹 앱의 경우 RSS 피드가 필요하지 않을 수 있습니다). 필요성을 기준으로 3단계로 정의했습니다:
 
 ![Low][low_img] 해당 항목은 권장되지만 특정 상황에서 생략할 수 있다는 것을 나타냅니다.
 ![Medium][medium_img] 해당 항목은 강력히 권장되지만 매우 특정한 경우에만 생략할 수 있습니다. 그러나 이러한 요소를 생략하면 성능이나 SEO에 부정적인 영향을 줄 수 있습니다.
@@ -82,14 +82,14 @@
 * [ ] **Charset:** ![High][high_img] 문자 인코딩(UTF-8)이 올바르게 선언되었습니다.
 
 ```html
-<!-- Set character encoding for the document -->
+<!-- 문서의 문자 인코딩을 설정하세요. -->
 <meta charset="utf-8">
 ```
 
 * [ ] **Viewport:** ![High][high_img] 뷰포트가 올바르게 선언되었습니다.
 
 ```html
-<!-- Viewport for responsive web design -->
+<!-- 반응형 웹 디자인을 위한 뷰포트 설정 -->
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 ```
 
@@ -220,7 +220,7 @@
 
 > * 🛠 [Critical by Addy Osmani on GitHub](https://github.com/addyosmani/critical) automates this.
 
-* [ ] **CSS order:** ![High][high_img] 모든 CSS 파일은 `<head>` 안에서 어떤 자바스크립트 파일보다 먼저 로드됩니다. (페이지의 맨 위에서 가끔씩 JS 파일이 비동기적으로 로드되는 경우를 제외하고)
+* [ ] **CSS order:** ![High][high_img] 모든 CSS 파일은 `<head>` 안에서 어떤 자바스크립트 파일보다 먼저 로드됩니다. (페이지의 맨 위에서 가끔씩 자바스크립트 파일이 비동기적으로 로드되는 경우를 제외하고)
 
 ### 소셜 메타
 
@@ -568,7 +568,7 @@
 > * 📖 [Cookies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies)
 > * 🛠 [Browser Cookie Limits](http://browsercookielimits.squawky.net/)
 
-* [ ] **Third party components:** ![Medium][medium_img] 가능한 경우, 외부 JS에 의존하는 써드파티 iframe이나 구성 요소(공유 버튼과 같은)는 정적 구성 요소로 대체하여 외부 API 호출을 제한하고 사용자의 활동을 보호합니다.
+* [ ] **Third party components:** ![Medium][medium_img] 가능한 경우, 외부 자바스크립트에 의존하는 써드파티 iframe이나 구성 요소(공유 버튼과 같은)는 정적 구성 요소로 대체하여 외부 API 호출을 제한하고 사용자의 활동을 보호합니다.
 
 > * 🛠 [Simple sharing buttons generator](https://simplesharingbuttons.com/)
 
