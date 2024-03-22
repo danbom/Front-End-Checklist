@@ -600,8 +600,3 @@
 - [thedaviddias/Front-End-Checklist](https://github.com/thedaviddias/Front-End-Checklist)
 
 **[⬆ 페이지 상단으로 이동](#table-of-contents)**
-
-[low_img]: data/images/priority/low.svg
-[medium_img]: data/images/priority/medium.svg
-[high_img]: data/images/priority/high.svg
-
